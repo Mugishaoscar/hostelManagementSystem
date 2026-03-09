@@ -1,0 +1,3 @@
+mirinda Drink 1200 12 14400
+primus Drink 1200 13 15600
+merange Meal 1200 12 14400
