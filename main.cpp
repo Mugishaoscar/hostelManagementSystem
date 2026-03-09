@@ -8,8 +8,8 @@ int main() {
     string name;
     while (true) {
         cout << "\n--- Hostel Management System ---\n";
-        cout << "1. Apply for Room (Enqueue)\n";
-        cout << "2. Allocate Room (Dequeue -> Add to List)\n";
+        cout << "1. Apply for Room \n";
+        cout << "2. Allocate Room\n";
         cout << "3. View Waiting List\n";
         cout << "4. View Allocated Rooms\n";
         cout << "5. Exit\n";

@@ -6,7 +6,7 @@ int main(){
     string name;
     int id;
     student s1;
-    resident* r1;
+    resident r1;
     studentNode* next;
     // studentNode node(100,"oscar");
     for (int i=0;i<=2;i++){
@@ -22,7 +22,8 @@ int main(){
         s1.enqueue(id,name);
     }
     next=s1.dequeue();
-    r1add(next,100)
+    r1.add(next,100);
+    r1.display();
     //s1.dequeue();
     s1.display();
 }

@@ -27,6 +27,7 @@ using namespace std;
         if(student==nullptr){
             cout<<"empty";
         }
+        student->room=room;
         student->next=head;
         head=student;
     }
@@ -34,7 +35,7 @@ using namespace std;
        
         studentNode* temp=head;
          while(temp!=nullptr){
-        cout<<"name :"<<temp->name<<"id :"<<temp->id;
+        cout<<"name :"<<temp->name<<"id :"<<temp->room<<endl;
         temp=temp->next;
     }
 
